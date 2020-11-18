@@ -165,7 +165,7 @@ public struct StripePaymentMethodCardWallet: StripeModel {
     public var amexExpressCheckout: String? = nil
     /// If this is a `apple_pay` card wallet, this hash contains details about the wallet.
     /// Stripe does not [provide any details](https://stripe.com/docs/api/payment_methods/object#payment_method_object-card-wallet-apple_pay) about possible values so this will remain nil/unimplemented.
-    public var applePay: String? = nil
+    //public var applePay: String? = nil
     /// (For tokenized numbers only.) The last four digits of the device account number.
     public var dynamicLast4: String?
     /// If this is a `google_pay` card wallet, this hash contains details about the wallet.
